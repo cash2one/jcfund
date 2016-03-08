@@ -1,0 +1,383 @@
+﻿ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="{dede:global.cfg_templets_skin/}/css/web_style.css" rel="stylesheet" type="text/css" />
+<link href="{dede:global.cfg_templets_skin/}/css/style.css" rel="stylesheet" type="text/css" />
+<link href="{dede:global.cfg_templets_skin/}/css/flash.css" rel="stylesheet" type="text/css" />
+
+<title>{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="description" content="{dede:global.cfg_description/}" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.animate-colors-min.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.db_tabmotionbanner.min.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/menus.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/indexaction.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/dd_belatedpng.js"></script>
+<script type="text/javascript" >
+DD_belatedPNG.fix('img,.div');
+</script>
+<![endif]-->
+
+</head>
+<body class="IndexBgColor">
+
+<div class="spre_but">
+  <ul>
+    <li id="weixin"><a href="javascript:;"><img src="{dede:global.cfg_templets_skin/}/picture/spre1.gif"></a>
+      <p><em><em></em></em><img src="{dede:global.cfg_templets_skin/}/picture/weixin.jpg"></p>
+    </li>
+    <li id="phone"><a href="javascript:;"><img src="{dede:global.cfg_templets_skin/}/picture/spre2.gif"></a>
+      <p><em><em></em></em><img src="{dede:global.cfg_templets_skin/}/picture/r02_s.jpg"></p>
+    </li>
+    <li id="word"><a href="#"><img src="{dede:global.cfg_templets_skin/}/picture/spre4.gif"></a>
+      <p><em><em></em></em><img src="{dede:global.cfg_templets_skin/}/picture/r03_s.png"></p>
+    </li>
+      
+  </ul>
+</div>
+	
+<div class="head" id="Head">
+	<div class="heads">
+		<div class="HeadTopLeft"></div>
+		<div class="HeadTopRight"></div>
+		<div class="logo"><a href="/"><img src="{dede:global.cfg_templets_skin/}/picture/logo.png" alt="" border="0" /></a></div>
+		<!--div class="banner"><img src="{dede:global.cfg_templets_skin/}/picture/banner.jpg"  alt="" /></div-->		
+		<div class="nav">
+			<ul>
+				<li class="cur"><a href="/">网站首页</a></li>
+              {dede:channel type='top' row='6' currentstyle="<li class='cur'><a href='~typelink~' ~rel~>~typename~</a></li>"}
+				<li><a href="[field:typeurl/]">[field:typename/]</a></li>
+              {/dede:channel}  
+			</ul>
+		 <div class="curBg"></div>
+    <div class="cls"></div>
+		</div>
+	</div>
+</div>
+
+<ul class="F_nav">
+
+</ul>
+
+<div class="flash">
+
+<div class="DB_tab25">
+	<div class="bodys">
+	<ul class="DB_bgSet">
+		<li style="background:url({dede:global.cfg_templets_skin/}/picture/0.jpg) no-repeat center top;"></li>
+		<li style="background:url({dede:global.cfg_templets_skin/}/picture/00.jpg) no-repeat center top;"></li>
+		<li style="background:url({dede:global.cfg_templets_skin/}/picture/000.jpg) no-repeat center top;"></li>
+	</ul>
+
+	<ul class="DB_imgSet">
+		<li>
+			<!--<img src="{dede:global.cfg_templets_skin/}/picture/01.png" alt="" border="0" class="DB_1_1">-->
+			<img src="{dede:global.cfg_templets_skin/}/picture/02.png" alt="" border="0" class="DB_1_2">
+			<!--
+			<img src="{dede:global.cfg_templets_skin/}/picture/03a.png" alt="" border="0" class="DB_1_3">
+			<img src="{dede:global.cfg_templets_skin/}/picture/03b.png" alt="" border="0" class="DB_1_4">
+			<img src="{dede:global.cfg_templets_skin/}/picture/03c.png" alt="" border="0" class="DB_1_5">
+			<img src="{dede:global.cfg_templets_skin/}/picture/03d.png" alt="" border="0" class="DB_1_6">
+			<img src="{dede:global.cfg_templets_skin/}/picture/03e.png" alt="" border="0" class="DB_1_7">
+			-->
+				</li>
+
+		
+		<li>
+			<!---
+		<img src="{dede:global.cfg_templets_skin/}/picture/1.png" alt="" border="0" class="DB_2_1">
+		<img src="{dede:global.cfg_templets_skin/}/picture/2.png" alt="" border="0" class="DB_2_2">
+		<img src="{dede:global.cfg_templets_skin/}/picture/3.png" alt="" border="0" class="DB_2_3">
+		<img src="{dede:global.cfg_templets_skin/}/picture/4.png" alt="" border="0" class="DB_2_4">
+		<img src="{dede:global.cfg_templets_skin/}/picture/5.png" alt="" border="0" class="DB_2_5">
+		-->
+		</li>
+		
+	  <li>
+	  	<!--
+		<img src="{dede:global.cfg_templets_skin/}/picture/1.png" alt="" border="0" class="DB_3_1">
+		<img src="{dede:global.cfg_templets_skin/}/picture/2.png" alt="" border="0" class="DB_3_2">
+		<img src="{dede:global.cfg_templets_skin/}/picture/3.png" alt="" border="0" class="DB_3_3">
+		<img src="{dede:global.cfg_templets_skin/}/picture/4.png" alt="" border="0" class="DB_3_4">
+		<img src="{dede:global.cfg_templets_skin/}/picture/5.png" alt="" border="0" class="DB_3_5">
+		-->
+		</li>
+		
+	</ul>
+</div>
+	<div class="DB_menuWrap">
+		<ul class="DB_menuSet">
+			<li class='select'><img src="{dede:global.cfg_templets_skin/}/picture/btn_off.png" alt=""></li>
+			<li><img src="{dede:global.cfg_templets_skin/}/picture/btn_off.png" alt=""></li>
+			<li><img src="{dede:global.cfg_templets_skin/}/picture/btn_off.png" alt=""></li>
+		</ul>
+		<div class="DB_next"><img src="{dede:global.cfg_templets_skin/}/picture/nextarrow.png" alt="NEXT"></div>
+		<div class="DB_prev"><img src="{dede:global.cfg_templets_skin/}/picture/prevarrow.png" alt="PREV"></div>
+	</div>
+
+</div>
+<script type="text/javascript">
+$('.DB_tab25').DB_tabMotionBanner({
+	key:'b28551',
+	autoRollingTime:10000,                            
+	bgSpeed:500,
+	motion:{
+	  /*DB_1_1:{top:-50,opacity:0,speed:1000,delay:3000},*/
+		DB_1_1:{top:50,opacity:0,speed:1000,delay:500},
+		DB_1_2:{left:50,opacity:0,speed:1000,delay:1000},
+		DB_1_3:{top:-20,opacity:0,speed:1000,delay:2000},
+		DB_1_4:{top:-20,opacity:0,speed:1000,delay:1800},
+		DB_1_5:{top:20,opacity:0,speed:1000,delay:1500},
+		DB_1_6:{top:-20,opacity:0,speed:1000,delay:1800},
+		DB_1_7:{top:-20,opacity:0,speed:1000,delay:2000},
+	
+		
+		
+		DB_2_1:{left:50,opacity:0,speed:1000,delay:500},
+		DB_2_2:{left:40,opacity:0,speed:1000,delay:800},
+		DB_2_3:{top:50,opacity:0,speed:1000,delay:2000},
+		DB_2_4:{top:50,opacity:0,speed:1000,delay:2500},
+		DB_2_5:{top:-20,opacity:0,speed:1000,delay:1000},
+		
+		DB_3_1:{left:-50,opacity:0,speed:1000,delay:500},
+		DB_3_2:{top:50,opacity:0,speed:1000,delay:1000},
+		DB_3_3:{top:0,opacity:0,speed:1000,delay:1500},
+		/*
+		DB_4_1:{top:50,opacity:0,speed:1000,delay:500},
+		DB_4_2:{top:0,opacity:0,speed:1000,delay:1000},
+		DB_4_3:{top:0,opacity:0,speed:1000,delay:1500},
+		DB_4_4:{top:30,opacity:0,speed:1000,delay:2000},
+		DB_4_5:{top:100,opacity:0,speed:1000,delay:3000},
+	
+		DB_5_1:{left:-50,opacity:0,speed:1000,delay:500},
+		DB_5_2:{top:50,opacity:0,speed:1000,delay:1000},
+		DB_5_3:{top:0,opacity:0,speed:1000,delay:1500},
+		*/
+		end:null
+	}
+})
+</script>
+
+
+</div>
+
+
+
+<div class="pingpai" id="pro">
+
+</div>
+
+
+<!--服务-->
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/indexservice.js"></script>
+<div class="Service">
+	<div class="Services">
+		<div class="ServiceList">
+		<a href="javascript:">
+		<div class="ServiceLists">
+	
+			<div class="top"><img src="{dede:global.cfg_templets_skin/}/picture/xma1.png" alt="私募股权基金"  /></div>
+			<div class="title"><span>私募股权基金</span><br />
+			</div>
+			<div class="com">私募股权基金: 针对特定投资者发行的未上市公司的投资基金。</div>
+		
+		<div class="tops"><img src="{dede:global.cfg_templets_skin/}/picture/xma2.png" alt="私募股权基金"  /></div>
+			<div class="titles"><span>私募股权基金</span><br />
+			</div>
+		<div class="coms">私募股权基金: 针对特定投资者发行的未上市公司的投资基金。</div>
+			<img src="{dede:global.cfg_templets_skin/}/picture/r4_c11.gif" class="imgs" width="280" height="330" alt="私募股权基金背景"   />
+		</div>
+	
+	</a>
+	
+	
+	</div>
+	
+		<div class="ServiceList">
+
+		<a href="javascript:">
+		<div class="ServiceLists">
+	
+			<div class="top"><img src="{dede:global.cfg_templets_skin/}/picture/xmb1.png" alt="私募证券基金"/></div>
+			<div class="title"><span>私募证券基金</span><br />
+			</div>
+		<div class="com">私募证券基金: 针对特定投资者发行的已上市公司的投资基金。</div>
+		
+		<div class="tops"><img src="{dede:global.cfg_templets_skin/}/picture/xmb2.png"  alt="私募证券基金" /></div>
+			<div class="titles"><span>私募股权基金</span><br />
+			</div>
+		<div class="coms">私募证券基金: 针对特定投资者发行的已上市公司的投资基金。</div>
+			<img src="{dede:global.cfg_templets_skin/}/picture/r4_c11.gif" width="280" height="330" class="imgs" alt="私募证券基金背景" //>		</div>
+	
+	</a>
+	
+
+	</div>
+	
+		<div class="ServiceList">
+		<a href="javascript:">
+		<div class="ServiceLists">
+	
+			<div class="top"><img src="{dede:global.cfg_templets_skin/}/picture/xmc1.png" alt="创业投资基金" /></div>
+			<div class="title"><span>创业投资基金</span><br />
+			</div>
+		<div class="com">创业投资基金：投向于不具备上市资格的中小企业和新兴企业,尤其是高新技术企业。</div>
+		
+		<div class="tops"><img src="{dede:global.cfg_templets_skin/}/picture/xmc2.png"  alt="创业投资基金" /></div>
+			<div class="titles"><span>创业投资基金</span><br />
+			</div>
+		<div class="coms">创业投资基金：投向于不具备上市资格的中小企业和新兴企业,尤其是高新技术企业。</div>
+			<img src="{dede:global.cfg_templets_skin/}/picture/r4_c11.gif" class="imgs" width="280" height="330" alt="创业投资基金背景" />
+		</div>
+	
+		</a>
+	
+	
+	</div>
+	
+		<div class="ServiceList">
+		<a href="javascript:">
+		<div class="ServiceLists">
+	
+			<div class="top"><img src="{dede:global.cfg_templets_skin/}/picture/xmd1.png" alt="其他投资基金" /></div>
+			<div class="title"><span>其他投资基金</span><br />
+			</div>
+		<div class="com">
+			+ 影视业及其衍生品投资<br />
+			+ 艺术品投资<br />
+			+ 红酒投资
+		</div>
+		
+		<div class="tops"><img src="{dede:global.cfg_templets_skin/}/picture/xmd2.png"  alt="其他投资基金" /></div>
+			<div class="titles"><span>其他投资基金</span><br />
+			</div>
+		<div class="coms">
+			+ 影视业及其衍生品投资<br />
+			+ 艺术品投资<br />
+			+ 红酒投资
+	</div>
+			<img src="{dede:global.cfg_templets_skin/}/picture/r4_c11.gif" class="imgs" width="280" height="330" alt="其他投资基金背景" />
+		</div>
+	
+		</a>
+	
+	
+	</div>
+	</div>
+</div>
+<!--结束-->
+<!--案例-->
+
+<div class="Case" id="news" style="display:none;">	
+</div>
+<!--结束-->
+
+<div class="GgBody" id="ser" style="display:none;">
+</div>
+
+
+
+<!--关于我们-->
+<div class="WhyBos" style="display:none;">
+	<div class="Why" id="con">
+	</div>
+</div>
+<!--结束-->
+
+
+<!--新闻中心-->
+
+<div class="IndexNew" >
+
+	<div class="IndexNewhead">
+		<div class="title">
+		<div class="title1">菁诚资讯</div>
+		<div class="title2">SHARE</div>
+		</div>
+		
+		<div class="IndexNewComs">投资路漫漫，菁诚基金与您永相伴。</div>
+	</div>
+	<div class="IndexNewBody">
+
+		<div class="IndexNewBodys">
+			<div class="I_NewTitle">
+			<div class="chinas">
+			{dede:type typeid='16'}[field:typename/]{/dede:type}</div> 
+			<div class="ens"> </div>
+			</div>
+		{dede:arclist row='7' titlelen='80' typeid='16'}	
+            <div class="I_NewList"> <a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></div>
+		{/dede:arclist}
+		<div class="I_NewMore">{dede:type typeid='16'}<a href="[field:typeurl/]">{/dede:type}More</a></div>
+		</div>
+		
+		<div class="IndexNewBodys">
+			<div class="I_NewTitle">
+			<div class="chinas">
+			{dede:type typeid='17'}[field:typename/]{/dede:type}</div> 
+			<div class="ens"></div>
+			</div>
+            {dede:arclist row='7' titlelen='80' typeid='17'}	
+				<div class="I_NewList"> <a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></div>
+            {/dede:arclist}
+		<div class="I_NewMore">{dede:type typeid='17'}<a href="[field:typeurl/]">{/dede:type} More</a></div>
+		</div>
+	</div>
+
+</div>
+
+
+<div class="WeBody" id="job" style="display:none;">
+
+	<div class="WeBodyHead">
+		<div class="title">合作伙伴</div>
+	
+	</div>
+	<div class="WeBodyTop">
+
+	</div>
+  <div class="WeBodyHp">
+	<ul>	
+	{dede:arclist row='28'  titlelen='30' typeid='22'}
+        <li><a href="#this" rel="nofollow"><span><img src="[field:litpic/]" /></span></a></li>
+	{/dede:arclist}
+    </ul>
+  </div>
+  <div class="More">{dede:type typeid='22'}<a href="[field:typeurl/]">{/dede:type}MORE</a></div>
+</div>
+<div class="IndexLink"  style="display:none;">
+	<div class="IndexLinkBody">
+		<div class="IndexLinkLEft">
+			<div class="title">友情链接</div>
+		
+		</div>
+		<div class="IndexLinkRight">
+        {dede:flink row='21' typeid=""}
+            [field:link /]
+        {/dede:flink}
+        </div>
+		<div class="Indeexmenue">
+        <a href="/">首页</a>
+        {dede:channel type='top' row='6'}
+             | <a href="[field:typeurl/]">[field:typename/]</a>
+        {/dede:channel} 
+       </div>
+	</div>
+</div>
+{dede:include filename="footer.htm"/}
+<style>
+.WeBodyHp{ height:auto}
+.WeBodyHp,.WeBodyHp li{ overflow:hidden}
+</style>
+<!--
+<a class="bshareDiv" href="http://www.bshare.cn/share">分享按钮</a><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#uuid=&amp;style=3&amp;fs=4&amp;textcolor=#fff&amp;bgcolor=#F60&amp;text=分享到"></script>
+-->
+</body>
+</html>
+

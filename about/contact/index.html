@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<title>走近我们  /  联系我们_菁诚基金</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="/templets/jcfund/css/web_style.css" rel="stylesheet" type="text/css" />
+<link href="/templets/jcfund/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/templets/jcfund/css/flash.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/templets/jcfund/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/templets/jcfund/js/jquery.animate-colors-min.js"></script>
+<script type="text/javascript" src="/templets/jcfund/js/menus.js"></script>
+
+
+<!--[if IE 6]>
+<script type="text/javascript" src="/templets/jcfund/js/dd_belatedpng.js"></script>
+<script type="text/javascript" >
+DD_belatedPNG.fix('img,.div');
+</script>
+<![endif]-->
+
+<script type="text/javascript">
+$(function(){
+	var news_top = $("#news").offset().top;
+	var ser_top = $("#ser").offset().top;
+	var con_top = $("#con").offset().top;
+	var job_top = $("#job").offset().top;
+	var Head_top = $("#AHaed").offset().top;
+	//alert(tops);
+	$(window).scroll(function(){
+	
+		var scroH = $(this).scrollTop();
+		if (scroH>80){
+		$(".A_nav").css("display","block");	
+		}else{
+		$(".A_nav").css("display","none");
+		}
+		
+		
+		if(scroH>=job_top){
+			set_cur(".job");
+				
+		}else if(scroH>=con_top){
+			set_cur(".con");
+		
+		}else if(scroH>=ser_top){
+			set_cur(".ser");
+		}else if(scroH>=news_top){
+			set_cur(".news");
+		}
+	});
+
+	
+		$(".A_nav li").click(function() {
+		var el = $(this).attr('class');
+	
+		$('html, body').animate({
+		 	scrollTop: $("#"+el).offset().top
+			});
+ 	});
+	
+	
+
+
+function set_cur(n){
+	if($(".A_nav li").hasClass("cur")){
+		$(".A_nav li").removeClass("cur");
+	}
+	$(".A_nav li"+n).addClass("cur");
+	}
+});
+
+</script>
+</head>
+<body>
+<div class="head" id="Head">
+	<div class="heads">
+		<div class="HeadTopLeft"></div>
+		<div class="HeadTopRight"></div>
+		<div class="logo"><a href="/"><img src="/templets/jcfund/picture/logo.png" alt="" border="0" /></a></div>
+		<!--div class="banner"><img src="/templets/jcfund/picture/banner.jpg"  alt="" /></div-->		
+		<div class="nav">
+			<ul>
+				<li><a href="/">网站首页</a></li>
+              <li class='cur'><a href='/about/' >走近我们</a></li>
+				<li><a href="/product/">旗下产品</a></li>
+              
+				<li><a href="/news/">菁诚资讯</a></li>
+                
+			</ul>
+		 <div class="curBg"></div>
+    <div class="cls"></div>
+		</div>
+	</div>
+</div>
+<ul class="A_nav">
+	<li class="AHaed"></li>
+	<li class="news"></li>
+	<li class="ser"></li>
+	<li class="con"></li>
+	<li class="job"></li>
+</ul>
+<div class="Zyflash" style="background:url(/templets/jcfund/images/r2_c1.jpg) no-repeat center bottom;"></div>
+
+<div class="ny_nav mb_40">
+  <div class="web_widht clearfix">
+    <ul class="left clearfix">
+     
+       <li><a href='/about/corp/'>公司简介</a><i class="i"></i></li>
+     
+       <li><a href='/about/team/'>菁诚团队</a><i class="i"></i></li>
+     <li class='on'><a href='/about/contact/'>联系我们</a><i class='i'></i></li>
+		</ul>
+    <div class="right font13 loca pr_20 color_c"> <a href='http://localhost/'>主页</a> > <a href='/about/'>走近我们</a> > <a href='/about/contact/'>联系我们</a> >  </div>
+  </div>
+</div>
+
+<div class="ContactTop">
+
+	<div class="ContactBody">
+		
+		<div class="ContactItems">
+			<div class="ContactItem">
+				<div>公司地址</div>
+				<div>广东省深圳市福田区金田路3037号金中环商务大厦主楼2506室</div>
+			</div>
+			<div class="ContactItem">
+				<div>联系电话</div>
+				<div>0755-83229891</div>
+			</div>
+			<div class="ContactItem">
+				<div>微信公众号</div>
+				<div><img src="/templets/jcfund/picture/qrcode.png"/></div>
+			</div>
+		</div>
+
+		<div class="BaiduMap"><iframe width="604" height="610" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://j.map.baidu.com/i0-u8"></iframe></div>
+
+	</div>
+
+</div>
+
+
+<div class="clear"></div>
+
+
+
+ <div class="ZyFooterMenus">
+   <a href="/">首页</a>
+  
+     | <a href="/about/">走近我们</a>
+  
+     | <a href="/product/">旗下产品</a>
+  
+     | <a href="/news/">菁诚资讯</a>
+   
+ </div>
+<div class="footer">
+	<div class="footers">公司地址：深圳市福田区金田路3037号金中环商务大厦2506室   联系电话：0755-83229891 （上班时间：星期一至星期五） <br/>
+   <a href="http://www.jcfund.net">深圳菁诚基金管理有限公司</a>© 版权所有 jcfund.net All Rights Reserved  粤ICP备88888888号
+	</div>
+</div>
+<!--a class="bshareDiv" href="http://www.bshare.cn/share">分享按钮</a><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#uuid=&amp;style=3&amp;fs=4&amp;textcolor=#fff&amp;bgcolor=#F60&amp;text=分享到"></script-->
+</body>
+</html>
