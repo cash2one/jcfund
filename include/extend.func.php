@@ -19,3 +19,33 @@ function litimgurls($imgid=0)
     //返回结果
     return $lit_imglist;
 }
+
+// Diy自定在栏目页调用顶级栏目
+function GetTopTypename($id)
+{
+    global $dsql;
+    $row = $dsql->GetOne("SELECT typename,topid FROM dede_arctype WHERE id= $id");
+    if ($row['topid'] == '0')
+    {
+        return $row['typename'];
+    }
+    else
+    {
+        $row1 = $dsql->GetOne("SELECT typename FROM dede_arctype WHERE id= $row[topid]");
+        return $row1['typename'];
+    }
+}
+function GetTopTypenameen($id)
+{
+    global $dsql;
+    $row = $dsql->GetOne("SELECT typenameen,topid FROM dede_arctype WHERE id= $id");
+    if ($row['topid'] == '0')
+    {
+        return $row['typenameen'];
+    }
+    else
+    {
+        $row1 = $dsql->GetOne("SELECT typenameen FROM dede_arctype WHERE id= $row[topid]");
+        return $row1['typenameen'];
+    }
+}
