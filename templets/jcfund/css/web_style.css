@@ -22,47 +22,15 @@ a:visited{color:#4d4d4d;}
 a:hover{color: #ff2000;}
 a:active{color:#4d4d4d;}
 
-DIV {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; 
+div,h1,h2,h3,h4,p,form,label,input,textarea,img,span {
+	padding:0px;  margin: 0px; 
 }
-H1 {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
-}
-H2 {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
-}
-H3 {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
-}
-H4 {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
-}
-P {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
-}
-FORM {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
-}
-LABEL {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
-}
-INPUT {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
-}
-TEXTAREA {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
-}
-IMG {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
-}
-SPAN {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
-}
-DIV {
-	MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+
+div {
+	margin-left: auto; margin-right: auto
 }
 dl,dd,dt {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+	padding-right: 0px; padding-left: 0px; font-size: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px; list-style-type: none
 }
 .clear {CLEAR: both; line-height:0px; font-size:0px;  height:0px; width:100%;}
 .add_body_title{ width:200px; height:20px; line-height:20px; text-align:center;font-family:微软雅黑，黑体; font-size:14px; font-weight:bold;padding-bottom:10px; }

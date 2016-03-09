@@ -6,6 +6,7 @@ p{
 
 /* 网页头部 */
 .IndexBgColor{ background-color:#FFFFFF;}
+
 .spre_but{ width:49px; position:fixed; right:2px; top:45%; z-index:999;}
 .spre_but li{ width:49px; height:49px; margin-bottom:1px;}
 .spre_but img{ border-radius:3px;}
@@ -16,7 +17,7 @@ p{
 #weixin p em,#phone p em,#word p em{position:absolute; left:100%; top:20px; border-left:8px solid #e2e2e2; border-top:8px solid transparent; border-bottom:8px solid transparent;}
 #weixin p em em,#phone p em em,#word p em em{position:absolute; left:-9px; top:-8px; border-left:8px solid #fff;}
 
-
+/**头部导航 */
 .head{ width:100%; height:86px; background: #ffffff;position:fixed; z-index:99999; 
 		-webkit-transform: translateY(0%);
 	-moz-transform: translateY(0%);
@@ -43,6 +44,10 @@ text-decoration:none;outline:none;blr:expression(this.onFocus=this.blur());
 
 /* 结束 */
 
+.flash{ width:100%; height:460px; padding-top:86px;}
+
+
+/*二级导航*/
 .ny_nav{ height:69px; border-bottom:1px solid #dbdbdb; line-height:69px;}
 .ny_nav li{ position:relative;height:69px; float:left; width:130px; text-align:center;}
 .ny_nav li a{ display:block;}
@@ -79,10 +84,13 @@ text-decoration:none;outline:none;blr:expression(this.onFocus=this.blur());
 .fzlth{font-family:"Lantinghei SC";}
 .bold{font-weight:bold;}
 .uppercase{text-transform:uppercase;}
+
+
 /* 字体大小 */
 .font10{ font-size:10px;}.font11{ font-size:11px;}.font12{ font-size:12px;}.font13{ font-size:13px;}.font14{ font-size:14px;}.font15{ font-size:15px;}.font16{ font-size:16px;}.font18{ font-size:18px;}.font20{ font-size:20px;}.font21{ font-size:21px;}.font22{ font-size:22px;}.font24{ font-size:24px;}.font26{ font-size:26px;}.font28{ font-size:28px;}.font30{ font-size:30px;}
 
 /* 字体颜色 */
+
 .color_0{ color:#000;}.color_3{ color:#333;}.color_6{ color:#666;}.color_9{ color:#999;}.color_c{ color:#CCC;}
 .color_f,.color_f a,.color_f a:hover,.color_f:hover{ color:#fff;}
 .red,.red a{color:#e52613;}
@@ -94,10 +102,11 @@ text-decoration:none;outline:none;blr:expression(this.onFocus=this.blur());
 .green{color:#1fa91f;}
 
 
-
-.flash{ width:100%; height:460px; padding-top:86px;}
-
 /* 结束 */
+
+.ContentFrame { width:100%;  height:760px;}
+.ContentBody { width:1100px; height:640px; margin:0 auto; padding: 60px;  background: #FFFFFF; }
+
 
 
 
