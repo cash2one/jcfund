@@ -1,1 +1,0 @@
-<li><a href="#this" rel="nofollow"><span><img src="[field:litpic/]" /></span></a></li>

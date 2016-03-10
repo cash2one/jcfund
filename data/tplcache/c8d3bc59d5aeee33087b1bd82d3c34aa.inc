@@ -1,1 +1,0 @@
-<div class="I_NewList"> <a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></div>
