@@ -107,8 +107,9 @@ text-decoration:none;outline:none;blr:expression(this.onFocus=this.blur());
 .ContentFrame { width:100%;  height:760px;}
 .ContentBody { width:1100px; height:640px; margin:0 auto; padding: 60px;  background: #FFFFFF; }
 
-
-
+.ContentBody h1 {margin-bottom: 32px;}
+.ContentBody p {margin:6px 0px; text-indent: 0;}
+.BaiduMap {padding-top: 32px; text-align:center;}
 
 /*服务*/
 .Service{ width:100%; /*height:496px;*/ height:380px; border-bottom:1px solid #D5D1D2; padding-top:6px;}
@@ -566,9 +567,6 @@ text-align:center;color:#989898;}
 
 
 /*--------------------联系我们-----------------------*/
-.ContactTop{ width:100%; height:768px; }
-.ContactBody{ height:auto; width:1200px; background: #FFFFFF; }
-.ContactBody{ width:1200px; height:768px; position:relative; padding: 20px;}
 .ContactBody .ContactItems {}
 .ContactBody .BaiduMap{ width:380px; height:282px;position:absolute; right:300px; top:70px;}
 
@@ -658,7 +656,7 @@ filter:alpha(opacity=0);-moz-opacity:0;opacity:0;
 
 .AboutBody4 .team1{ width:153px; height:216px;position:absolute; left:20px; top:270px;filter:alpha(opacity=0); -moz-opacity:0;opacity:0;}
 .AboutBody4 .team2{ width:153px; height:216px;position:absolute; left:220px; top:270px;filter:alpha(opacity=0); -moz-opacity:0;opacity:0;}
-.AboutBody4 .team3{ width:160px; height:216px;position:absolute; left:420px; top:270px; filter:alpha(opacity=0); -moz-opacity:0;opacity:0;;}
+.AboutBody4 .team3{ width:160px; height:216px;position:absolute; left:420px; top:270px; filter:alpha(opacity=0); -moz-opacity:0;opacity:0;}
 .AboutBody4 .team4{ width:153px; height:216px;position:absolute; left:623px; top:270px;filter:alpha(opacity=0); -moz-opacity:0;opacity:0;}
 .AboutBody4 .team5{ width:153px; height:216px;position:absolute; left:825px; top:270px;filter:alpha(opacity=0); -moz-opacity:0;opacity:0;}
 .AboutBody4 .team6{ width:153px; height:216px;position:absolute; left:1026px; top:270px;filter:alpha(opacity=0); -moz-opacity:0;opacity:0;}

@@ -23,56 +23,6 @@ DD_belatedPNG.fix('img,.div');
 <![endif]-->
 
 <script type="text/javascript">
-$(function(){
-	var news_top = $("#news").offset().top;
-	var ser_top = $("#ser").offset().top;
-	var con_top = $("#con").offset().top;
-	var job_top = $("#job").offset().top;
-	var Head_top = $("#AHaed").offset().top;
-	//alert(tops);
-	$(window).scroll(function(){
-	
-		var scroH = $(this).scrollTop();
-		if (scroH>80){
-		$(".A_nav").css("display","block");	
-		}else{
-		$(".A_nav").css("display","none");
-		}
-		
-		
-		if(scroH>=job_top){
-			set_cur(".job");
-				
-		}else if(scroH>=con_top){
-			set_cur(".con");
-		
-		}else if(scroH>=ser_top){
-			set_cur(".ser");
-		}else if(scroH>=news_top){
-			set_cur(".news");
-		}
-	});
-
-	
-		$(".A_nav li").click(function() {
-		var el = $(this).attr('class');
-	
-		$('html, body').animate({
-		 	scrollTop: $("#"+el).offset().top
-			});
- 	});
-	
-	
-
-
-function set_cur(n){
-	if($(".A_nav li").hasClass("cur")){
-		$(".A_nav li").removeClass("cur");
-	}
-	$(".A_nav li"+n).addClass("cur");
-	}
-});
-
 </script>
 </head>
 <body>
@@ -97,26 +47,29 @@ function set_cur(n){
   </div>
 </div>
 
-<div class="ContactTop">
+<div class="ContentFrame" style="height: 900px">
 
-	<div class="ContactBody">
+	<div class="ContentBody" style="height: 780px">
 		
-		<div class="ContactItems">
-			<div class="ContactItem">
-				<div>公司地址</div>
-				<div>广东省深圳市福田区金田路3037号金中环商务大厦主楼2506室</div>
+		<div class="ContactItems" style="height: 140px;">
+			<div class="ContactItem left" style="width: 600px;">
+            	<h1>深圳菁诚基金管理有限公司</h1>
+				<p>公司地址：深圳市福田区金田路3037号金中环商务大厦主楼2506室</p>
+                <p>联系电话：0755-83229891</p>
+                <p>电子邮箱：service@jcfund.net</p>
 			</div>
-			<div class="ContactItem">
-				<div>联系电话</div>
-				<div>0755-83229891</div>
-			</div>
-			<div class="ContactItem">
-				<div>微信公众号</div>
-				<div><img src="{dede:global.cfg_templets_skin/}/picture/qrcode.png"/></div>
+			<div class="ContactItem left" style="width: 120px; text-align:center;" >
+				<div style="padding:8px 0;">微信公众号</div>
+				<div>
+                	<img width="96"  height="96" style="border: 1px solid #D0D0D0" src="{dede:global.cfg_templets_skin/}/picture/qrcode.png"/>
+                </div>
 			</div>
 		</div>
 
-		<div class="BaiduMap"><iframe width="604" height="610" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://j.map.baidu.com/i0-u8"></iframe></div>
+		<div class="BaiduMap">
+        	<a href="http://map.baidu.com/?newmap=1&s=con%26wd%3D金中环国际商务大厦%26c%3D340&from=alamap&tpl=mapdots" target="_blank">
+        	<img src="{dede:global.cfg_templets_skin/}/images/map.jpg" /></a>
+        </div>
 
 	</div>
 

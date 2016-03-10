@@ -24,53 +24,7 @@ DD_belatedPNG.fix('img,.div');
 
 <script type="text/javascript">
 $(function(){
-	var news_top = $("#news").offset().top;
-	var ser_top = $("#ser").offset().top;
-	var con_top = $("#con").offset().top;
-	var job_top = $("#job").offset().top;
-	var Head_top = $("#AHaed").offset().top;
-	//alert(tops);
-	$(window).scroll(function(){
-	
-		var scroH = $(this).scrollTop();
-		if (scroH>80){
-		$(".A_nav").css("display","block");	
-		}else{
-		$(".A_nav").css("display","none");
-		}
-		
-		
-		if(scroH>=job_top){
-			set_cur(".job");
-				
-		}else if(scroH>=con_top){
-			set_cur(".con");
-		
-		}else if(scroH>=ser_top){
-			set_cur(".ser");
-		}else if(scroH>=news_top){
-			set_cur(".news");
-		}
-	});
 
-	
-		$(".A_nav li").click(function() {
-		var el = $(this).attr('class');
-	
-		$('html, body').animate({
-		 	scrollTop: $("#"+el).offset().top
-			});
- 	});
-	
-	
-
-
-function set_cur(n){
-	if($(".A_nav li").hasClass("cur")){
-		$(".A_nav li").removeClass("cur");
-	}
-	$(".A_nav li"+n).addClass("cur");
-	}
 });
 
 </script>
@@ -78,13 +32,6 @@ function set_cur(n){
 <body>
 	
 {dede:include filename="head.htm"/}
-<ul class="A_nav">
-	<li class="AHaed"></li>
-	<li class="news"></li>
-	<li class="ser"></li>
-	<li class="con"></li>
-	<li class="job"></li>
-</ul>
 
 
 <div class="Zyflash" style="background:url({dede:global.cfg_templets_skin/}/images/r2_c1.jpg) no-repeat center bottom;"></div>
@@ -102,16 +49,19 @@ function set_cur(n){
 
 <div class="ContentFrame">
 	<div class="ContentBody">
-		<h2 style="color:#FF2000; font-wight:normal;"> 深圳菁诚基金管理有限公司</h2>
+		<h1 style="color:#FF2000; font-wight:normal;"> 深圳菁诚基金管理有限公司</h1>
 		<div>
 			<p>深圳菁诚基金管理有限公司，是专注于股权投资及基金管理服务的专业机构。</p>
 			<p>公司恪守金融投资业的核心价值观，对投资人、对投资企业、对社会秉承诚信为本的价值观。</p>
 			<p>公司通过精准把握国家政策和市场走向，深刻理解产业发展趋势和方向，用专业化的视角寻求投资机会，严格评估、管理投资风险，努力规避投资风险以实现投资价值的最大化。帮助被投企业进行资源整合，提升管理水平，完善治理结构，构建符合上市企业标准的财务和法律框架，通过提升被投资企业的价值，为投资人带来丰厚的回报。</p>
 			<p>公司是经中国证券投资基金业协会备案登记的投资机构。</p>
 			<p>公司致力于以新三板为切入点，从已挂牌及拟挂牌企业的股权投资入手，将业务拓展至创业板、中小板、主板等多层次资本市场。</p>
-    	<p>通过互联网生态综合金融服务系统，支撑中小企业发展平台，企业机构投资平台，资方管理销售平台，投资人理财平台，金融服务与创新平台，产业整合平台，以及大数据平台，在为我国创新型中小企业提供金融支持与服务的过程中，不断发展与壮大自身，将公司打造成为行业领先的金融企业。</div>
-			</p>
-		</div>
+    	<p>通过互联网生态综合金融服务系统，支撑中小企业发展平台，企业机构投资平台，资方管理销售平台，投资人理财平台，金融服务与创新平台，产业整合平台，以及大数据平台，在为我国创新型中小企业提供金融支持与服务的过程中，不断发展与壮大自身，将公司打造成为行业领先的金融企业。</p>
+            <h2>公司战略</h2>
+            <p>以基金管理为核心，以影视及衍生品为主轴，构建金融影视文化生态圈</p>	
+        </div>
+			
+	</div>
 </div>
 
 
