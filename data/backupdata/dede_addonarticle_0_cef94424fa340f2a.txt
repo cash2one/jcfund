@@ -1,4 +1,0 @@
-INSERT INTO `dede_addonarticle` VALUES('37','16','测试 地方萨芬的<br />\r\n<br />\r\n<br />\r\n655666666666666<br />\r\n555555555555555555<br type=\"_moz\" />\r\n&nbsp;<br type=\"_moz\" />\r\n&nbsp;<br type=\"_moz\" />\r\n&nbsp;<br type=\"_moz\" />\r\n','','','127.0.0.1');
-INSERT INTO `dede_addonarticle` VALUES('35','31','<h1>\r\n	<span style=\"color: rgb(255, 0, 0);\"><span style=\"font-family: lucida sans unicode,lucida grande,sans-serif;\">深圳菁诚基金管理有限公司</span></span></h1>\r\n<br />\r\n内容内容','','','127.0.0.1');
-INSERT INTO `dede_addonarticle` VALUES('36','32','restore&nbsp; ','','','127.0.0.1');
-INSERT INTO `dede_addonarticle` VALUES('1','6','test test','','','127.0.0.1');

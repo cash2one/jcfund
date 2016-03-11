@@ -21,42 +21,7 @@ DD_belatedPNG.fix('img,.div');
 </script>
 <![endif]-->
 
-<script type="text/javascript">
-$(document).ready(function() {
 
-	// $("#orderedlist li:last").hover(function() {
-		sumli=$(".ZyMenu ul>li").length;
-		allWidth=($(".ZyMenu ul>li").width())*sumli;
-		$(".ZyMenu ul").width(allWidth);
-	//	alert(allWidth);
-	pas=$(".pageBody a").length;
-		allWidths=($(".pageBody a").width()+36)*pas;
-		$("#pages").width(allWidths);
-
-
-  $(window).scroll(function() {
-  
- if($(window).scrollTop()>=450){
-
-   $("#nav").fadeIn(200);
- }else{
-  $("#nav").fadeOut(150);
- } 
-  });
-  
-  
-  
-  
-  	$(".VieList").hover(function() {
-  
-   $(this).css("border-bottom","1px #00ABB1 dashed");
-  
-  	}, function() {
-	   $(this).css("border-bottom","1px #D2D2D2 dashed");
-		});
-});
-
-</script>
 </head>
 
 <body>
@@ -65,34 +30,18 @@ $(document).ready(function() {
 
 <div class="Zyflash" style="background:url({dede:global.cfg_templets_skin/}/images/customers.jpg) no-repeat center bottom;"></div>
 
-
-<div class="ZyTitle">
-	<div class="lefts">
-		<div class="leftEn">{dede:field name='typeid' function="GetTopTypenameen(@me)" /}</div>
-		<div class="leftCh">{dede:field name='typeid' function="GetTopTypename(@me)" /}</div>
-	
-	</div>
-	<div class="rights">
-		
-		<div class="ZyUrl">
-		{dede:field name='position'/}		
-		</div>
-	</div>
+<div class="ny_nav mb_40">
+  <div class="web_widht clearfix">
+    <ul class="left clearfix">
+     {dede:channel type='son' currentstyle="<li class='on'><a href='~typelink~'>~typename~</a><i class='i'></i></li> "}
+       <li><a href='[field:typeurl/]'>[field:typename/]</a><i class="i"></i></li>
+     {/dede:channel}
+		</ul>
+    <div class="right font13 loca pr_20 color_c"> {dede:field name='position'/} </div>
+  </div>
 </div>
-{dede:include filename="left.htm"/}
-<!--案例-->
-<!--//  浮动菜单 //-->
-	<div id="nav" class="MenuSction">
-		<div class="MeBodys">	
-	<div class="ClassNames">{dede:field name='typeid' function="GetTopTypename(@me)" /}</div>
-	<ul>
-{dede:channel type='son' currentstyle="<li class='lis'><a href='~typelink~'>~typename~</a></li> "}
-    <li><a href='[field:typeurl/]'>[field:typename/]</a></li>
-{/dede:channel}
-</ul>
-	</div>
-	</div>
-<!---->		
+
+
 	
 <div class="QueBody">
 	
@@ -116,12 +65,8 @@ $(document).ready(function() {
 			<div class="VieShowbodys">
 				{dede:field.body/} 
 			
-			
-				
-                <div class="right">{dede:prenext get='next'/}</div>
-			
-	
-			
+        <div class="right">{dede:prenext get='next'/}</div>
+        <a href="javascript:history.back(-1)" class="more_c absolute display_bk lh_18">返 回</a>
 			</div>
 		</div>
 		
