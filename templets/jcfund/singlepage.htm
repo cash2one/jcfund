@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+<link href="{dede:global.cfg_templets_skin/}/css/web_style.css" rel="stylesheet" type="text/css" />
+<link href="{dede:global.cfg_templets_skin/}/css/style.css" rel="stylesheet" type="text/css" />
+<link href="{dede:global.cfg_templets_skin/}/css/flash.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.animate-colors-min.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/menus.js"></script>
+
+
+<!--[if IE 6]>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/dd_belatedpng.js"></script>
+<script type="text/javascript" >
+DD_belatedPNG.fix('img,.div');
+</script>
+<![endif]-->
+
+<script type="text/javascript">
+$(function(){
+
+});
+
+</script>
+</head>
+<body>
+	
+{dede:include filename="head.htm"/}
+
+
+<div class="Zyflash" style="background:url({dede:global.cfg_templets_skin/}/images/r2_c1.jpg) no-repeat center bottom;"></div>
+
+<div class="ny_nav mb_40">
+  <div class="web_widht clearfix">
+    <ul class="left clearfix">
+     {dede:channel type='son' currentstyle="<li class='on'><a href='~typelink~'>~typename~</a><i class='i'></i></li> "}
+       <li><a href='[field:typeurl/]'>[field:typename/]</a><i class="i"></i></li>
+     {/dede:channel}
+		</ul>
+    <div class="right font13 loca pr_20 color_c"> {dede:field name='position'/} </div>
+  </div>
+</div>
+
+<div class="ContentFrame">
+	<div class="ContentBody">
+			{dede:field name='body'/}
+	</div>
+</div>
+
+
+
+<div class="clear"></div>
+
+
+
+ <div class="ZyFooterMenus">
+   <a href="/">首页</a>
+  {dede:channel type='top' row='6'}
+     | <a href="[field:typeurl/]">[field:typename/]</a>
+  {/dede:channel} 
+ </div>
+{dede:include filename="footer.htm"/}
+<!--a class="bshareDiv" href="http://www.bshare.cn/share">分享按钮</a><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#uuid=&amp;style=3&amp;fs=4&amp;textcolor=#fff&amp;bgcolor=#F60&amp;text=分享到"></script-->
+</body>
+</html>
