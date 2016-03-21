@@ -44,37 +44,31 @@ DD_belatedPNG.fix('img,.div');
 
 	
 <div class="QueBody">
-	
-		
-		<div class="VieShowLeft">
-			<div class="top">
+	<div class="VieShowLeft">
+		<div class="top">
 			<div class="topl">
-				<h1>
-				{dede:field.title/}			
-				</h1>
-				<div class="keys gatFont">标签：{dede:tag sort='new' getall='0'} [field:tag /] {/dede:tag}
-			        | 作者：{dede:field.writer/} | VISITORS:<script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/} "type='text/javascript' language="javascript"></script> | 来源：{dede:field.source/}</div>
-			  </div><div class="times">
-			
-					<div class="big">{dede:field.pubdate function="MyDate('d',@me)"/}</div>
-					<div class="smail">{dede:field.pubdate function="MyDate('M',@me)"/}<br />{dede:field.pubdate function="MyDate('Y',@me)"/}</div>
-			
-			</div>
-			</div>
-		
-			<div class="VieShowbodys">
-				{dede:field.body/} 
-			
-        <div class="right">{dede:prenext get='next'/}</div>
-        <a href="javascript:history.back(-1)" class="more_c absolute display_bk lh_18">返 回</a>
+				<h1>{dede:field.title/}</h1>
+				<div class="keys gatFont"> 
+					标签：{dede:tag sort='new' getall='0'} [field:tag /] {/dede:tag} | 作者：{dede:field.writer/} | VISITORS:<script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/} "type='text/javascript' language="javascript"></script> | 来源：{dede:field.source/}
+				</div>
+		  </div>
+		  <div class="times">
+				<div class="big">{dede:field.pubdate function="MyDate('d',@me)"/}</div>
+				<div class="smail">{dede:field.pubdate function="MyDate('M',@me)"/}<br />{dede:field.pubdate function="MyDate('Y',@me)"/}</div>
 			</div>
 		</div>
+	
+		<div class="VieShowbodys">
+			{dede:field.body/} 
+      <div class="right">{dede:prenext get='prev'/}</div>
+		</div>
+	</div>
 		
 		
 	<div class="VieShowRight">
 		
-			<div class="title">相关新闻</div>
-			<div class="XGNews">
+		<div class="title">相关新闻</div>
+		<div class="XGNews">
 			<ul>
 			{dede:likearticle row='6' typeid='4'}				
 				<li [field:global name=autoindex runphp="yes"](@me==1)?@me="class='lis'":@me="";[/field:global]><a href="[field:arcurl/]" title="[field:title /]">[field:title /]</a>
@@ -100,13 +94,12 @@ DD_belatedPNG.fix('img,.div');
 			});
 			
 			</script>
-			</div>
-            </div>
-            </div>
-			<div class="WB"></div>
-		</div>		
-	</div>
-	<div class="clear"></div>
+		</div>
+  </div>
+</div>
+			
+<div class="WB"></div>
+<div class="clear"></div>
 <div class="bottoms"></div>
 <div class="ZyFooter">
 	 <div class="ZyFooterMenus">
