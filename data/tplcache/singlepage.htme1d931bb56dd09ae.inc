@@ -1,0 +1,42 @@
+<?php
+$z[0]=Array("field","",261,280);
+$z[0][4]['name']="title";
+$z[1]=Array("global","",281,307);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("field","",348,370);
+$z[2][4]['name']="keywords";
+$z[3]=Array("field","",410,461);
+$z[3][4]['name']="description";
+$z[3][4]['function']="html2text(@me)";
+$z[4]=Array("global","",479,511);
+$z[4][4]['name']="cfg_templets_skin";
+$z[5]=Array("global","",580,612);
+$z[5][4]['name']="cfg_templets_skin";
+$z[6]=Array("global","",677,709);
+$z[6][4]['name']="cfg_templets_skin";
+$z[7]=Array("global","",798,830);
+$z[7][4]['name']="cfg_templets_skin";
+$z[8]=Array("global","",902,934);
+$z[8][4]['name']="cfg_templets_skin";
+$z[9]=Array("global","",1015,1047);
+$z[9][4]['name']="cfg_templets_skin";
+$z[10]=Array("global","",1128,1160);
+$z[10][4]['name']="cfg_templets_skin";
+$z[11]=Array("include","",1374,1409);
+$z[11][4]['filename']="head.htm";
+$z[12]=Array("global","",1458,1490);
+$z[12][4]['name']="cfg_templets_skin";
+$z[13]=Array("channel","\r\n       <li><a href='[field:typeurl/]'>[field:typename/]</a><i class=\"i\"></i></li>\r\n     ",1646,1865);
+$z[13][4]['type']="son";
+$z[13][4]['currentstyle']="<li class='on'><a href='~typelink~'>~typename~</a><i class='i'></i></li>";
+$z[14]=Array("field","",1926,1955);
+$z[14][4]['name']="position";
+$z[15]=Array("field","",2043,2068);
+$z[15][4]['name']="body";
+$z[16]=Array("channel","\r\n     | <a href=\"[field:typeurl/]\">[field:typename/]</a>\r\n  ",2185,2294);
+$z[16][4]['type']="top";
+$z[16][4]['row']="6";
+$z[17]=Array("include","",2306,2343);
+$z[17][4]['filename']="footer.htm";
+
+?>

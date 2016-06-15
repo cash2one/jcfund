@@ -1,0 +1,2 @@
+INSERT INTO `dede_admin` VALUES('1','10','admin','f297a57a5a743894a0e4','admin','','','0','1458635957','127.0.0.1');
+INSERT INTO `dede_admin` VALUES('2','10','jcfund','4f96486393e08e7d9a05','菁诚基金','','','','1465979429','127.0.0.1');

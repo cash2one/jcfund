@@ -1,0 +1,45 @@
+<?php
+$z[0]=Array("field","",259,278);
+$z[0][4]['name']="title";
+$z[1]=Array("global","",279,305);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("field","",346,368);
+$z[2][4]['name']="keywords";
+$z[3]=Array("field","",408,459);
+$z[3][4]['name']="description";
+$z[3][4]['function']="html2text(@me)";
+$z[4]=Array("global","",477,509);
+$z[4][4]['name']="cfg_templets_skin";
+$z[5]=Array("global","",578,610);
+$z[5][4]['name']="cfg_templets_skin";
+$z[6]=Array("global","",675,707);
+$z[6][4]['name']="cfg_templets_skin";
+$z[7]=Array("global","",796,828);
+$z[7][4]['name']="cfg_templets_skin";
+$z[8]=Array("global","",900,932);
+$z[8][4]['name']="cfg_templets_skin";
+$z[9]=Array("global","",1013,1045);
+$z[9][4]['name']="cfg_templets_skin";
+$z[10]=Array("global","",1126,1158);
+$z[10][4]['name']="cfg_templets_skin";
+$z[11]=Array("include","",2045,2080);
+$z[11][4]['filename']="head.htm";
+$z[12]=Array("global","",2129,2161);
+$z[12][4]['name']="cfg_templets_skin";
+$z[13]=Array("channel","\r\n       <li><a href='[field:typeurl/]'>[field:typename/]</a><i class=\"i\"></i></li>\r\n     ",2324,2543);
+$z[13][4]['type']="son";
+$z[13][4]['currentstyle']="<li class='on'><a href='~typelink~'>~typename~</a><i class='i'></i></li>";
+$z[14]=Array("field","",2604,2633);
+$z[14][4]['name']="position";
+$z[15]=Array("list","\r\n		<div class=\"VieList\">\r\n			<div class=\"time\">\r\n				<div class=\"big\">[field:pubdate function=\"MyDate('d',@me)\"/]</div>\r\n					<div class=\"smail\">[field:pubdate function=\"MyDate('M',@me)\"/]<br />\r\n[field:pubdate function=\"MyDate('y',@me)\"/]</div>\r\n			</div>\r\n			<div class=\"img\"><img src=\"[field:litpic/]\" onerror=\"this.src='/include/noPic.jpg'\" /></div>\r\n			<h3><a href=\"[field:arcurl/]\">[field:title/]</a></h3>\r\n			\r\n			<div class=\"keys gatFont\">分类：[field:typename/]&nbsp; | TAGS：<a href=\"tag.php?key=\"></a>  | VISITORS:<script src=\"{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/} \"type='text/javascript' language=\"javascript\"></script> </div>\r\n			<div class=\"coms\">\r\n			&nbsp; &nbsp; &nbsp;[field:description function='cn_substr(@me,158)'/]			\r\n			</div>\r\n		</div>\r\n	",2689,3559);
+$z[15][4]['pagesize']="5";
+$z[16]=Array("pagelist","",3622,3678);
+$z[16][4]['listitem']="pre,next,pageno";
+$z[16][4]['listsize']="5";
+$z[17]=Array("channel","\r\n     | <a href=\"[field:typeurl/]\">[field:typename/]</a>\r\n  ",3844,3953);
+$z[17][4]['type']="top";
+$z[17][4]['row']="6";
+$z[18]=Array("include","",3973,4010);
+$z[18][4]['filename']="footer.htm";
+
+?>

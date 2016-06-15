@@ -257,14 +257,14 @@ opacity:0;/*其他，透明度50%*/
 .IndexNewComs{ width:600px; height:26px; padding-top:30px; float:left;}
 
 .IndexNewBody{ width:1200px; height:310px; }
-.IndexNewBodys{ width:580px; height:310px; float:left; padding-left:20px;}
-.I_NewTitle{ width:560px; height:40px; border-bottom:1px solid #696969; float:left; margin-bottom:12px;}
+.IndexNewBodys{ width:380px; height:310px; float:left; padding-left:20px;}
+.I_NewTitle{ width:380px; height:40px; border-bottom:1px solid #696969; float:left; margin-bottom:12px;}
 .I_NewTitle .chinas{ font-size:18px; height:35px; padding-top:5px; width:75px; float:left; color:#2A2B2C;}
 .I_NewTitle .ens{ height:28px; padding-top:12px; width:120px;float:left;color:#999; font-size:12px;}
-.I_NewList{ padding-left:18px; height:26px; width:442px; float:left; background:url(../images/r30_c21.jpg) no-repeat 3px 11px; line-height:26px; position:relative;}
-.I_NewList a{ display:block;height:26px; width:442px; position:relative; }
+.I_NewList{ padding-left:18px; height:26px; width:360px; float:left; background:url(../images/r30_c21.jpg) no-repeat 3px 11px; line-height:26px; position:relative;}
+.I_NewList a{ display:block;height:26px; width:360px; position:relative; }
 .I_NewList a:hover{ color:#01a9b2;}
-.I_NewMore{ width:100px; height:26px; padding-left:18px; float:left; background:url(../images/r32_c21.jpg) no-repeat 3px 9px; line-height:26px;}
+.I_NewMore{ width:60px; height:26px; padding-left:18px; float:right; background:url(../images/r32_c21.jpg) no-repeat 3px 9px; line-height:26px;}
 
 
 /*------------------------*/
@@ -493,8 +493,8 @@ width:1160px; _height:170px; float:left; min-height:170px;
   
  .VieList .time .big{ width:40px; height:28px; float:left;  font-size:28px; color:#999; line-height:24px; font-weight:bold; text-align:center;} 
 .VieList .time .smail{ width:40px; height:26px; float:left; line-height:13px; font-size:12px;}
-.VieList .img{ width:225px; height:145px; float:left; padding-left:15px; padding-top:25px;}
-.VieList .img img{ width:200px; height:120px;}
+.VieList .img{ width:96px; height:96px; float:left; padding-left:15px; padding-top:25px;}
+.VieList .img img{ width:64px; height:64px;}
 .VieList h3{ width:775px; height:24px; float:left; padding-top:26px; }
 .VieList h3 a{font-size:16px;}
 .VieList h3 a:link,.VieList h3 a:visited{ color:#2A2B2c;}

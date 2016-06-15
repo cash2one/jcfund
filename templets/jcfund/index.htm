@@ -69,9 +69,10 @@ DD_belatedPNG.fix('img,.div');
 <div class="DB_tab25">
 	<div class="bodys">
 	<ul class="DB_bgSet">
-		<li style="background:url({dede:global.cfg_templets_skin/}/picture/0.jpg) no-repeat center top;"></li>
-		<li style="background:url({dede:global.cfg_templets_skin/}/picture/00.jpg) no-repeat center top;"></li>
-		<li style="background:url({dede:global.cfg_templets_skin/}/picture/000.jpg) no-repeat center top;"></li>
+		<li style="background:url({dede:global.cfg_templets_skin/}/picture/0header1.jpg) no-repeat center top;"></li>
+		<li style="background:url({dede:global.cfg_templets_skin/}/picture/0header2.jpg) no-repeat center top;"></li>
+		<li style="background:url({dede:global.cfg_templets_skin/}/picture/0header3.jpg) no-repeat center top;"></li>
+		<li style="background:url({dede:global.cfg_templets_skin/}/picture/0header4.jpg) no-repeat center top;"></li>
 	</ul>
 
 	<ul class="DB_imgSet">
@@ -124,7 +125,7 @@ DD_belatedPNG.fix('img,.div');
 <script type="text/javascript">
 $('.DB_tab25').DB_tabMotionBanner({
 	key:'b28551',
-	autoRollingTime:10000,                            
+	autoRollingTime:2000,                            
 	bgSpeed:500,
 	motion:{
 	  /*DB_1_1:{top:-50,opacity:0,speed:1000,delay:3000},*/
@@ -325,7 +326,19 @@ $('.DB_tab25').DB_tabMotionBanner({
             {dede:arclist row='7' titlelen='80' typeid='7'}	
 				<div class="I_NewList"> <a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></div>
             {/dede:arclist}
-		<div class="I_NewMore">{dede:type typeid='7'}<a href="[field:typeurl/]">{/dede:type} More</a></div>
+				<div class="I_NewMore">{dede:type typeid='7'}<a href="[field:typeurl/]">{/dede:type} More</a></div>
+		</div>
+		
+		<div class="IndexNewBodys">
+			<div class="I_NewTitle">
+			<div class="chinas">
+			{dede:type typeid='13'}[field:typename/]{/dede:type}</div> 
+			<div class="ens"></div>
+			</div>
+            {dede:arclist row='7' titlelen='80' typeid='13'}	
+				<div class="I_NewList"> <a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></div>
+            {/dede:arclist}
+				<div class="I_NewMore">{dede:type typeid='13'}<a href="[field:typeurl/]">{/dede:type} More</a></div>
 		</div>
 	</div>
 
@@ -369,6 +382,10 @@ $('.DB_tab25').DB_tabMotionBanner({
        </div>
 	</div>
 </div>
+<div class="WB"></div>
+<div class="clear"></div>
+<div class="bottoms"></div>
+
 {dede:include filename="footer.htm"/}
 <style>
 .WeBodyHp{ height:auto}
