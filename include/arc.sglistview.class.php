@@ -786,7 +786,7 @@ class SgListView
                                        $row['ispart'],$row['namerule2'],$row['moresite'],$row['siteurl'],$row['sitepath']);
                     if($row['litpic'] == '-' || $row['litpic'] == '')
                     {
-                        $row['litpic'] = $GLOBALS['cfg_cmspath'].'/images/defaultpic.gif';
+                        $row['litpic'] = $GLOBALS['cfg_cmspath'].'/images/defaultpic.png';
                     }
                     if(!preg_match("/^http:\/\//", $row['litpic']) && $GLOBALS['cfg_multi_site'] == 'Y')
                     {
